@@ -30,6 +30,8 @@ brew "lazygit"
 brew "libpq", link: true
 # AI coding agent, built for the terminal
 brew "opencode"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
