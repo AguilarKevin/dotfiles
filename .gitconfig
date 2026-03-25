@@ -1,5 +1,6 @@
 [user]
 	name = AguilarKevin
-	email = kevinaguilar0813@gmail.com
 [core]
 	editor = code --wait
+[include]
+	path = ~/.gitconfig.local

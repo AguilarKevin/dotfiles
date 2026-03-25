@@ -1,0 +1,16 @@
+# Copy this file to ~/.gitconfig.local (or symlink it there) and fill in your
+# personal or machine-specific Git settings.
+
+[user]
+	email = you@example.com
+	signingkey = ssh-ed25519 YOUR_PUBLIC_SIGNING_KEY
+
+[gpg]
+	format = ssh
+
+[commit]
+	gpgsign = true
+
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+	allowedSignersFile = /Users/yourusername/.config/git/allowed_signers

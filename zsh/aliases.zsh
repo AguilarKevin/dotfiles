@@ -1,32 +1,43 @@
 # Aliases and shortcuts
 
-a='php artisan'
-c=composer
-cat=bat
-dc=docker-compose
-dep=./vendor/bin/dep
-ff='fd | fzf'
-g=git
-ga='git add'
-gb='git branch'
-gc='git commit'
-gch='git checkout'
-gco='git checkout'
-ggo='git pull origin'
-gl='git log --oneline --decorate --graph -20'
-gp='git push'
-gpo='git push -u origin'
-gs='git status -sb'
-ha='herd php artisan'
-hc='herd composer'
-hp='herd php'
-la='eza -a --icons=auto --hyperlink'
-ll='eza -la --icons=auto --hyperlink'
-ls='eza --icons=auto --hyperlink'
-o=oracle
-p=pnpm
-pest=./vendor/bin/pest
-pint=./vendor/bin/pint
-spike=openclaw
-vf='code "$(fd . | fzf)"'
-y=yarn
+alias a='php artisan'
+alias c='composer'
+alias cat='bat'
+alias dc='docker-compose'
+alias dep='./vendor/bin/dep'
+alias ff='fd | fzf'
+alias g='git'
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias gch='git checkout'
+alias gco='git checkout'
+alias ggo='git pull origin'
+alias gl='git log --oneline --decorate --graph -20'
+alias gp='git push'
+alias gpo='git push -u origin'
+alias gs='git status -sb'
+alias gd='git diff --minimal'
+alias gl1='git log --oneline -10'
+alias ga.='git add .'
+alias ha='herd php artisan'
+alias hc='herd composer'
+alias hp='herd php'
+alias la='eza -a --icons=auto --hyperlink'
+alias ll='eza -la --icons=auto --hyperlink'
+alias ls='eza --icons=auto --hyperlink'
+alias o='oracle'
+alias p='pnpm'
+alias pest='./vendor/bin/pest'
+alias pint='./vendor/bin/pint'
+alias serve='php artisan serve'
+alias spike='openclaw'
+alias tinker='php artisan tinker'
+alias vf='code "$(fd . | fzf)"'
+alias vz='code "$(zoxide query -i)"'
+alias y='yarn'
+alias reload='source ~/.zshrc'
+alias cls='clear'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
